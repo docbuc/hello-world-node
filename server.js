@@ -1,5 +1,5 @@
-const http = require("http"),
-  os = require("os");
+const http = require("http");
+const os = require("os");
 
 http.createServer((req, res) => {
   const dateTime = new Date(),
